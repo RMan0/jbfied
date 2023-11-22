@@ -1,0 +1,16 @@
+[22-Nov-2023 11:00:37 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 163
+[22-Nov-2023 11:00:37 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 170
+[22-Nov-2023 11:00:43 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 163
+[22-Nov-2023 11:00:43 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 170
+[22-Nov-2023 11:23:49 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 163
+[22-Nov-2023 11:23:49 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 170
+[22-Nov-2023 11:23:52 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 163
+[22-Nov-2023 11:23:52 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 170
+[22-Nov-2023 11:23:54 Europe/Berlin] PHP Warning:  Undefined array key "appliedjobs" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 162
+[22-Nov-2023 11:23:54 Europe/Berlin] PHP Warning:  Undefined array key "appliedjobs" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 168
+[22-Nov-2023 11:25:11 Europe/Berlin] PHP Warning:  Undefined array key "appliedjobs" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 162
+[22-Nov-2023 11:25:11 Europe/Berlin] PHP Warning:  Undefined array key "appliedjobs" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 168
+[22-Nov-2023 12:32:53 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 163
+[22-Nov-2023 12:32:53 Europe/Berlin] PHP Warning:  Undefined array key "accounts" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 170
+[22-Nov-2023 12:33:06 Europe/Berlin] PHP Warning:  Undefined array key "appliedjobs" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 162
+[22-Nov-2023 12:33:06 Europe/Berlin] PHP Warning:  Undefined array key "appliedjobs" in C:\xampp\htdocs\JOBERFIED\applicant\profile.php on line 168

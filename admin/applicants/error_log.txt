@@ -1,0 +1,3 @@
+[22-Nov-2023 14:11:45 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$SALARIES in C:\xampp\htdocs\JOBERFIED\admin\applicants\view.php on line 77
+[22-Nov-2023 14:11:45 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\JOBERFIED\admin\applicants\view.php on line 77
+[22-Nov-2023 14:11:45 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$DURATION_EMPLOYEMENT in C:\xampp\htdocs\JOBERFIED\admin\applicants\view.php on line 78
