@@ -19,6 +19,10 @@ switch ($action) {
 	doDelete();
 	break;
 
+	case 'archive':
+        doArchive();
+        break;
+
 	case 'photos' :
 	doupdateimage();
 	break;
@@ -85,7 +89,7 @@ switch ($action) {
 					$emp->BIRTHDATE	 		= $birthdate;
 					$emp->BIRTHPLACE		= $_POST['BIRTHPLACE'];  
 					$emp->AGE			    = $age;
-					$emp->SEX 				= $_POST['optionsRadios']; 
+					$emp->SEX 				= $_POST['GENDER']; 
 					$emp->TELNO				= $_POST['TELNO'];
 					$emp->CIVILSTATUS		= $_POST['CIVILSTATUS']; 
 					$emp->POSITION			= trim($_POST['POSITION']);
@@ -122,6 +126,24 @@ switch ($action) {
 		}
 
 	}
+
+
+	function doArchive() {
+		global $mydb;
+	
+		if (isset($_GET['id'])) {
+			$employeeId = $_GET['id'];
+	
+			$mydb->setQuery("UPDATE tblemployees SET WORKSTATS = 'Archived' WHERE EMPLOYEEID = '{$employeeId}'");
+			$mydb->executeQuery();
+	
+			// Add any additional actions or redirects after archiving
+			// For example, you might want to redirect to the employee list
+			header("Location: index.php");
+		}
+	}
+	
+	
 
 	function doEdit(){
 	if(isset($_POST['save'])){
@@ -202,19 +224,7 @@ switch ($action) {
 } 
 	function doDelete(){
 		
-		// if (isset($_POST['selector'])==''){
-		// message("Select the records first before you delete!","error");
-		// redirect('index.php');
-		// }else{
-
-		// $id = $_POST['selector'];
-		// $key = count($id);
-
-		// for($i=0;$i<$key;$i++){
-
-		// 	$subj = New Student();
-		// 	$subj->delete($id[$i]);
-
+		
 		
 				$id = 	$_GET['id'];
 

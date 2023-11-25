@@ -190,7 +190,7 @@
 </div>
 
                   <li><a href="<?php echo web_root; ?>applicant/index.php?view=notification"><i class="fa fa-bell" ></i> <span class="label label-success"><?php echo $notif; ?></span></a></li>
-                      <li><a href="<?php echo web_root; ?>applicant/index.php?view=message"><i class="fa fa-envelope"></i> <span class="label label-success"><?php echo $msg; ?></span></a></li>
+              <!--      <li><a href="<?php echo web_root; ?>applicant/index.php?view=message"><i class="fa fa-envelope"></i> <span class="label label-success"><?php echo $msg; ?></span></a></li>-->
                       
 <?php } else { ?>
 <li class="pull-right login"><a data-target="#myModal" data-toggle="modal" href="">Login</a></li>
@@ -298,9 +298,9 @@
         </div>
         <div class="col-lg-6">
           <ul class="social-network">
-            <li><a href="https://www.facebook.com/PESO.Mabini.Batangas" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+           
             <li><a href="#" data-placement="top" title="Email"><i class="fa fa-envelope"></i></a></li>
-            
+            <li><a href="https://www.facebook.com/PESO.Mabini.Batangas" title="Facebook"><i class="fa fa-facebook"></i></a></li>
           </ul>
         </div>
       </div>

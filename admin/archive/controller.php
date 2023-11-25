@@ -23,7 +23,10 @@ switch ($action) {
 	doupdateimage();
 	break;
    
-   
+	case 'restore':
+    doRestore();
+    break;
+
     case 'addfiles' :
 	doAddFiles();
 	break;
@@ -121,6 +124,21 @@ switch ($action) {
 		 }
 		}
 
+	}
+
+	function doRestore() {
+		global $mydb;
+	
+		if (isset($_GET['id'])) {
+			$employeeId = $_GET['id'];
+	
+			$mydb->setQuery("UPDATE tblemployees SET WORKSTATS = 'Active' WHERE EMPLOYEEID = '{$employeeId}'");
+			$mydb->executeQuery();
+	
+			// Add any additional actions or redirects after restoring
+			// For example, you might want to redirect to the archived employees list
+			header("Location: index.php?view=archived");
+		}
 	}
 
 	function doEdit(){
