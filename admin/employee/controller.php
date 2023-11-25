@@ -134,7 +134,7 @@ switch ($action) {
 		if (isset($_GET['id'])) {
 			$employeeId = $_GET['id'];
 	
-			$mydb->setQuery("UPDATE tblemployees SET WORKSTATS = 'Archived' WHERE EMPLOYEEID = '{$employeeId}'");
+			$mydb->setQuery("UPDATE tblemployees SET ARCHIVE = 'Archived' WHERE EMPLOYEEID = '{$employeeId}'");
 			$mydb->executeQuery();
 	
 			// Add any additional actions or redirects after archiving

@@ -185,10 +185,10 @@
                         <!--     <div class="form-group">
                               <div class="col-md-8">
                                 <label class="col-md-4 control-label" for=
-                                "WORKSTATS">Work Status:</label>
+                                "ARCHIVE">Work Status:</label>
 
                                 <div class="col-md-8">
-                                  <select class="form-control input-sm" name="WORKSTATS" id="WORKSTATS">
+                                  <select class="form-control input-sm" name="ARCHIVE" id="ARCHIVE">
                                       <option value="none" >Select</option>
                                       <option value="Regular">Temporary</option> 
                                       <option value="Regular">Regular</option>

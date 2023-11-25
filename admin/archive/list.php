@@ -29,7 +29,7 @@
 		<tbody>
 			<?php
 			// Retrieve and display archived employees
-			$mydb->setQuery("SELECT * FROM   `tblemployees` WHERE WORKSTATS = 'Archived'");
+			$mydb->setQuery("SELECT * FROM   `tblemployees` WHERE ARCHIVE = 'Archived'");
 			$archived = $mydb->loadResultList();
 
 			foreach ($archived as $result) {

@@ -28,7 +28,7 @@
 			</thead>
 			<tbody>
 				<?php
-				$mydb->setQuery("SELECT * FROM `tblemployees` WHERE WORKSTATS != 'Archived'");
+				$mydb->setQuery("SELECT * FROM `tblemployees` WHERE ARCHIVE != 'Archived'");
 				$cur = $mydb->loadResultList();
 
 				foreach ($cur as $result) {
