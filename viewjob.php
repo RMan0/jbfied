@@ -48,13 +48,15 @@
                                             <div class="col-sm-12">
                                                 <p>Qualification/Work Experience :</p>
                                                  <ul style="list-style: none;"> 
-                                                    <li><?php echo $result->QUALIFICATION_WORKEXPERIENCE ;?></li> 
+                                                    <li><?php $qwe = str_replace(array('\r', '\n'), array('<br>', ''), $result->QUALIFICATION_WORKEXPERIENCE);
+                                                    echo $qwe ;?></li> 
                                                 </ul> 
                                             </div>
                                             <div class="col-sm-12"> 
                                                 <p>Job Description:</p>
                                                 <ul style="list-style: none;"> 
-                                                     <li><?php echo $result->JOBDESCRIPTION ;?></li> 
+                                                     <li><?php $jobdescription = str_replace(array('\r', '\n'), array('<br>', ''), $result->JOBDESCRIPTION);
+                                                     echo $jobdescription ;?></li> 
                                                 </ul> 
                                              </div>
                                             <div class="col-sm-12">
@@ -69,7 +71,6 @@
                         </div>
                     </div>
             </div>                        
-
-     
+           
 <?php  } ?>    </div>
     </section> 
