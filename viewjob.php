@@ -48,7 +48,7 @@
                                             <div class="col-sm-12">
                                                 <p>Qualification/Work Experience :</p>
                                                  <ul style="list-style: none;"> 
-                                                    <li><?php $qwe = str_replace(array('\r', '\n'), array('<br>', ''), $result->QUALIFICATION_WORKEXPERIENCE);
+                                                    <li><?php $qwe = str_replace(array('\rn','\r', '\n'), array('<br>','<br>', ''), $result->QUALIFICATION_WORKEXPERIENCE);
                                                     echo $qwe ;?></li> 
                                                 </ul> 
                                             </div>
