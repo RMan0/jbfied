@@ -52,9 +52,7 @@
             <h3>Partner with Business Leaders</h3>
             <p>Development of successful, long term, strategic relationships between customers and suppliers, based on achieving best practice and sustainable competitive advantage. In the business partner model, HR professionals work closely with business leaders and line managers to achieve shared organisational objectives.</p>
           </div>
-         <div class="col-md-2 col-sm-3">
-            <a href="#" class="btn btn-primary">Read More</a>
-          </div> 
+        
         </div>
       </div>
     </section>
