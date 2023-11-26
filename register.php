@@ -6,7 +6,7 @@
 		<div class="row"> 
 		    <div class="form-group">
 		        <div class="col-md-8">
-                    <label class="col-md-4 control-label" for="picture">Attachtment File:</label> 
+                    <label class="col-md-4 control-label" for="picture">Resume:</label> 
 						<div class="col-md-8"> 
                                 <input id="picture" name="picture" type="file">
                                 <input name="MAX_FILE_SIZE" type="hidden" value="2500000"> 
